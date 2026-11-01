@@ -1,4 +1,4 @@
-EXTENSION_UUID = tinted-shell@pakovm
+EXTENSION_UUID = tinted-shell-51@k0zino
 INSTALL_PATH = ~/.local/share/gnome-shell/extensions/$(EXTENSION_UUID)
 FILES = extension.js metadata.json stylesheet.css
 
@@ -10,7 +10,7 @@ install:
 	@echo "Please restart GNOME Shell (logout/login) to apply changes."
 
 zip:
-	zip tinted-shell.zip $(FILES)
+	zip tinted-shell-51.zip $(FILES)
 
 uninstall:
 	rm -rf $(INSTALL_PATH)
